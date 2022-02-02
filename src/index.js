@@ -1,10 +1,4 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import ReactDom from "react-dom";
 
-ReactDOM.render(
-  <div>
-    <h1>Hello World!</h1>
-    <p>This is a paragraph.</p>
-  </div>,
-  document.getElementById("root")
-);
+ReactDom.render(<h1 className="heading">Heloo world</h1>, ("root") )
